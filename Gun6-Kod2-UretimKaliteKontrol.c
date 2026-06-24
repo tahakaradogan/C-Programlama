@@ -16,3 +16,23 @@
 // 5. ağırlık 5 kg'ın altındaysa ekrana hatalı yaz.
 // 6. 5 kg ve üzerindeyse ekrana normal yaz.
 // 7. tüm ürünler kontrol edilince program bitsin.
+
+#include <stdio.h>
+
+int main() {
+  int i;
+  int agirliklar[10] = {6,3,8,2,7,4,9,1,5,6};
+
+  for (i = 0; i < 10; i++) {
+       if (agirliklar[i] < 5) 
+    { 
+       printf("Urun %d - Agirlik: %d kg - HATALI\n" , i+1, agirliklar[i]);
+    }
+       else {
+         printf("Urun %d - Agirlik: %d kg - Normal\n", i+1, agirliklar[i]);
+       }
+  }
+return 0;
+}
+ 
+        
