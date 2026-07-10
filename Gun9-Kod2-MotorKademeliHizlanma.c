@@ -24,5 +24,44 @@ int main() {
     printf("Baslangic: %d RPM\n", mevcut_devir);    //başlangıç devrini yazdır.
     printf("Hedef: %d RPM\n\n", hedef_devir);       //hedef değerini yazdır
 
-    while ("mevcut_devir < hedef devir") {          //devir hedefe ulaşmadığı sürece dön
-         printf("[Kademe %d] Motor devri: %d RPM\n", kademe, mevcut_devir); 
+    while (mevcut_devir < hedef devir) {          //devir hedefe ulaşmadığı sürece dön
+         printf("[Kademe %d] Motor devri: %d RPM\n", kademe, mevcut_devir);  //mevcut durumu yazdır.
+         mevcut_devir = mevcut_devir + 100;         // her kademede 100 RPM artır.
+         kademe++;                                  // kademe sayacını 1 artır
+    }
+
+    printf("\nHedef devire Ulasildi: %d RPM\n", mevcut_devir);    //hedefe ulaşınca bildir.
+    printf("Motor sabit hizda calisiyor.\n"); 
+    printf("Toplam kademe sayisi: %d\n", kademe);                 //kaç kademe ulaştığını raporla
+
+    return 0;  //program başarı ile bitti.
+
+}
+          
+ 
+      
+    
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
