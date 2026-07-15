@@ -2,15 +2,11 @@
  * Gun10-Kod1-FonksiyonGiris.c
  *
  * SENARYO:
- * Bir IHA'nin icinde 3 kritik elektronik kart bulunuyor:
- * ucus bilgisayari karti, motor kontrol karti ve haberlesme karti.
- * Bu kartlar ucus sirasinda isiniyor. Herhangi biri 80 dereceyi
- * gecerse IHA guvenli inis yapmali. Sistem her karti sirayla
- * kontrol ediyor. Ayni kontrol kodu 3 kart icin tekrar
- * yazilmamasi icin FONKSIYON kullaniyoruz.
+ * Bir IHA'nin icinde 3 kritik elektronik kart bulunuyor:  ucus bilgisayari karti, motor kontrol karti ve haberlesme karti.
+ * Bu kartlar ucus sirasinda isiniyor. Herhangi biri 80 dereceyi gecerse IHA guvenli inis yapmali. Sistem her karti sirayla
+ * kontrol ediyor. Ayni kontrol kodu 3 kart icin tekrar yazilmamasi icin FONKSIYON kullaniyoruz.
  *
- * NOT: Gercek sistemde sicaklik her kartın uzerindeki
- * sicaklik sensorunden okunur. Biz simule ediyoruz.
+ * NOT: Gercek sistemde sicaklik her kartın uzerindeki sicaklik sensorunden okunur. Biz simule ediyoruz.
  *
  * ALGORITMA:
  * 1. Sicaklik kontrol fonksiyonunu tanimla
